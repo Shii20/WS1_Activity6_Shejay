@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brgy. Manamoc</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .content label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+        .content input[type="text"],
+        .content input[type="email"],
+        .content textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        .content textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        .content input[type="text"]:focus,
+        .content input[type="email"]:focus,
+        .content textarea:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+        .content button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .content button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Header.png" alt="Barangay Header Image">
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>Contact Us</h1>
+
+            <div style="margin-bottom: 30px;">
+                <h2>Barangay Manamoc Contact Information</h2>
+                <p><strong>Barangay Hall Address:</strong><br>
+                Barangay Manamoc, Lagonoy<br>
+              Camarines Sur, Philippines</p>
+
+                <p><strong>Office Hours:</strong><br>
+                Monday - Friday: 8:00 AM - 5:00 PM<br>
+                Saturday: 8:00 AM - 12:00 PM<br>
+                Sunday: Closed</p>
+
+                <p><strong>Contact Numbers:</strong><br>
+                Barangay Captain: 09972943893<br>
+                Barangay Secretary: 09928343848<br>
+                Emergency Hotline: 09672763733</p>
+
+                <p><strong>Email Addresses:</strong><br>
+                General Inquiries: info@barangayManamoc.gov.ph<br>
+                Barangay Captain: captain@barangayManamoc.gov.ph<br>
+                Administrative Office: admin@barangayManamoc.gov.ph<br>
+                Promoter: emailDdepromoter@gmail.com</p>
+
+                <p><strong>Department Heads:</strong><br>
+                Health & Sanitation: health@barangayManamoc.gov.ph<br>
+                Peace & Order: peace@barangayManamoc.gov.ph<br>
+                Social Services: social@barangayManamoc.gov.ph</p>
+            </div>
+
+            <h2>Contact Form</h2>
+            <p>For inquiries or further information, reach out to us through the form below:</p>
+            <form action="register.html" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+     <footer>
+        <p>&copy; 2025 Barangay Manamoc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
